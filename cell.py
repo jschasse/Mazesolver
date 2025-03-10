@@ -12,7 +12,7 @@ class Cell():
         self.y1 = point_a.y
         self.x2 = point_b.x
         self.y2 = point_b.y
-        self.middle = Point((point_a.x + point_b.x)//2, (point_a.y + point_b.y)//2)
+        self.middle = Point((point_a.x + point_b.x)/2, (point_a.y + point_b.y)/2)
         self.win = win
         
     def draw(self, fill_color):
